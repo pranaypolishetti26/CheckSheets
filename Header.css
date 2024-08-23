@@ -1,0 +1,47 @@
+.header{
+    background-color: black;
+    height: 60px;
+    color: white;
+    text-align: start;
+    font-size:xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
+}
+
+.container{
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#link{
+    margin: 30px;
+}
+#input{
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#move-left{
+align-items: flex-start;
+background: none;
+border: none;
+height: fit-content;
+}
+
+#move-right {
+    display: flex;
+    height: fit-content;
+    background: none;
+    border: none;
+    margin-left: auto;
+}
+.spans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
